@@ -68,7 +68,7 @@ app.delete("/:id", async (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://admin:123janani@janani-monogo-api.ccprzuh.mongodb.net/?retryWrites=true&w=majority"
+    "ADD_MONGO_URL_HERE"
   )
   .then(() => {
     console.log("connected to database!");
